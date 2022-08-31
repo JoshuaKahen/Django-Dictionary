@@ -7,6 +7,6 @@
     "\\DjangoDictionary\\dictionary\\templates\\dictionary",
     "\\DjangoDictionary\\DjangoDictionary"
   ],
-  "SelectedNode": "\\DjangoDictionary\\DjangoDictionary\\urls.py",
+  "SelectedNode": "\\DjangoDictionary\\dictionary\\views.py",
   "PreviewInSolutionExplorer": false
 }
