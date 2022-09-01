@@ -16,13 +16,12 @@
         <div class="row">
  
             <div class="p-4 bg-primary text-white rounded mb-5">
-                <h1>A Dictionary Made with Django</h1>
+                <h1>{{ word }}</h1>
             </div>
  
             <div>
                 {% block content %}
-                <!-- here we will inject the content of every page that 
-                    inherits from the base page -->
+                
                 {% endblock %}
             </div>
         </div>

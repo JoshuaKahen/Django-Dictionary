@@ -2,17 +2,16 @@
 {% extends 'dictionary/base.html' %}
 
 {% block content %}
-<!-- this will display the searched word -->
-<h4>{{ word }}</h4>
 
-<!-- this will display the word meaning -->
-<p>{{ meanings }}</p>
+<p><b>Meaning</b>:{{ meanings }}</p>
 
-<hr>
-<!-- this will display the antonym for the word if its available-->
-<p><b>Antonyms</b>:{{ antonym }}</p>
-<hr>
-<!-- this will display the synonym for the word if its available-->
+
+{% for synonym in synonyms%}
 <p><b>Synonyms</b>:{{ synonym }}</p>
+{% endfor %}
+
+{% for antonym in antonyms%}
+<p><b>Antonyms</b>:{{ antonym }}</p>
+{% endfor %}
 
 {% endblock %}
