@@ -3,15 +3,30 @@
 
 {% block content %}
 
-<p><b>Meaning</b>:{{ meanings }}</p>
+<h2><b>Meaning:</b></h2>
 
+<h4>{{meaning}}</h4>
 
-{% for synonym in synonyms%}
-<p><b>Synonyms</b>:{{ synonym }}</p>
+{% if se != mt %}
+<h2><b>Synonyms:</b></h2>
+
+<ul>
+{% for core in se %}
+<li><h4>{{core}}</h4></li>
 {% endfor %}
+</ul>
+{% endif %}
 
-{% for antonym in antonyms%}
-<p><b>Antonyms</b>:{{ antonym }}</p>
+
+{% if ae != mt %}
+<h2><b>Antonyms:</b></h2>
+
+<ul>
+{% for core in ae %}
+<li><h4>{{core}}</h4></li>
 {% endfor %}
+</ul>
+{% endif %}
+
 
 {% endblock %}

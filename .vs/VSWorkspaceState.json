@@ -4,8 +4,7 @@
     "\\DjangoDictionary",
     "\\DjangoDictionary\\dictionary",
     "\\DjangoDictionary\\dictionary\\templates",
-    "\\DjangoDictionary\\dictionary\\templates\\dictionary",
-    "\\DjangoDictionary\\DjangoDictionary"
+    "\\DjangoDictionary\\dictionary\\templates\\dictionary"
   ],
   "SelectedNode": "\\DjangoDictionary\\dictionary\\views.py",
   "PreviewInSolutionExplorer": false
